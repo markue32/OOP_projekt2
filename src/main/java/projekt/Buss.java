@@ -7,8 +7,9 @@ public class Buss {
     private int[][] kohad;
     private double piletiHind;
     private List<Piletiostja> reisijad = new ArrayList<>();
+    private String liin;
 
-    public Buss(int ridade_arv, double piletiHind) {
+    public Buss(int ridade_arv, double piletiHind, String liin) {
         // Antud bussi ridade arv ja pileti hind
         // Loob bussi vastava ridade arvuga, ehk istme paaride hulga ja fikseerib pileti hinna
         this.piletiHind = piletiHind;
@@ -17,6 +18,7 @@ public class Buss {
             kohad[i][0] = 2 * i + 1;
             kohad[i][1] = 2 * i + 2;
         }
+        this.liin = liin;
     }
 
     public double getPiletiHind() {

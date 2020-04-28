@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Peaklass {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        Buss b1 = new Buss(5, 12);
+        Buss b1 = new Buss(5, 12, "Tallinn-Tartu");
 
         System.out.println("\nTeretulemast piletiostu keskkonda!\n");
         System.out.println("Ostes vähemalt 4 piletit on teil võimalus saada üks pilet tasuta!");

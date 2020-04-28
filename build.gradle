@@ -8,8 +8,8 @@ repositories {
 }
 
 sourceCompatibility = 11
-//compileJava.options.encoding = 'UTF-8'
-//compileTestJava.options.encoding = 'UTF-8'
+compileJava.options.encoding = 'windows-1257'
+compileTestJava.options.encoding = 'windows-1257'
 
 application {
     mainClassName = "projekt.Peaklass_graafiline"
