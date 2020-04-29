@@ -25,6 +25,10 @@ public class Buss {
         return piletiHind;
     }
 
+    public String getLiin() {
+        return liin;
+    }
+
     public void setPiletiHind(double piletiHind) {
         this.piletiHind = piletiHind;
     }
